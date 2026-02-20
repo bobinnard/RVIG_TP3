@@ -13,6 +13,8 @@ extern void FloatingMenu__ctor_mB7446BE5632FF013913B08AC6440C10426AD94E2 (void);
 extern void ProximityDetector_Start_m9CB275F863A479E158E97EC029C85716718A12D6 (void);
 extern void ProximityDetector_Update_m3BDE7FE6385D165276EA990A48E663637076657B (void);
 extern void ProximityDetector__ctor_m97ECA196A32004A015FEBBF5D76937A1AC81C867 (void);
+extern void BallScript_OnCollisionEnter_mC23DD03025366B95FE10CF5DFC1D60DFF3BB0B29 (void);
+extern void BallScript__ctor_m906724A92A91C0B17A4A2B815396C9F5C98C2094 (void);
 extern void ShootManager_Start_m668349ACA95074620DA3C19AE3BC27F2508919B3 (void);
 extern void ShootManager_Update_m38996D62784D03EC60578E8DA958C1A1BD5E4587 (void);
 extern void ShootManager_Shoot_mF4201D82FE2EBD527C923680CB5067D1FEA9EDA5 (void);
@@ -172,7 +174,7 @@ extern void XRPokeFollowAffordanceFill_OnTransformTweenableVariableUpdated_m8B3C
 extern void XRPokeFollowAffordanceFill_OnPokeStrengthChanged_m480B681A9BE7B6C71724392FC3368A029EA4CED6 (void);
 extern void XRPokeFollowAffordanceFill_OnPokeStateDataUpdated_m6233708D9CEEA9A7920B821FDBD306F4D7CBFAE6 (void);
 extern void XRPokeFollowAffordanceFill__ctor_mAED1746F6E90C5676967671BFBB11E3B7C6B1E98 (void);
-static Il2CppMethodPointer s_methodPointers[165] = 
+static Il2CppMethodPointer s_methodPointers[167] = 
 {
 	FloatingMenu_Start_m45AA6D192112FF8A9C8546942A0AFACF1815A92C,
 	FloatingMenu_Update_mB0B4800528E8750105FDD53FEE58EB14CF692DB2,
@@ -180,6 +182,8 @@ static Il2CppMethodPointer s_methodPointers[165] =
 	ProximityDetector_Start_m9CB275F863A479E158E97EC029C85716718A12D6,
 	ProximityDetector_Update_m3BDE7FE6385D165276EA990A48E663637076657B,
 	ProximityDetector__ctor_m97ECA196A32004A015FEBBF5D76937A1AC81C867,
+	BallScript_OnCollisionEnter_mC23DD03025366B95FE10CF5DFC1D60DFF3BB0B29,
+	BallScript__ctor_m906724A92A91C0B17A4A2B815396C9F5C98C2094,
 	ShootManager_Start_m668349ACA95074620DA3C19AE3BC27F2508919B3,
 	ShootManager_Update_m38996D62784D03EC60578E8DA958C1A1BD5E4587,
 	ShootManager_Shoot_mF4201D82FE2EBD527C923680CB5067D1FEA9EDA5,
@@ -346,18 +350,20 @@ extern void TrackedRotation_SetBaseFromVector_m0CAD68507FD5C7AA3C7CAE09720645F03
 extern void TrackedRotation_SetTargetFromVector_m42F1586C38A41E0FB628220D326B1572BB8F80D7_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[4] = 
 {
-	{ 0x06000089, TrackedRotation_get_totalOffset_mC129829FFE6CDD96C8885030BDAEF40D569F06C8_AdjustorThunk },
-	{ 0x0600008A, TrackedRotation_Reset_m54545DE2D01827833956AEC4324C136A0CB72425_AdjustorThunk },
-	{ 0x0600008B, TrackedRotation_SetBaseFromVector_m0CAD68507FD5C7AA3C7CAE09720645F033F1D26E_AdjustorThunk },
-	{ 0x0600008C, TrackedRotation_SetTargetFromVector_m42F1586C38A41E0FB628220D326B1572BB8F80D7_AdjustorThunk },
+	{ 0x0600008B, TrackedRotation_get_totalOffset_mC129829FFE6CDD96C8885030BDAEF40D569F06C8_AdjustorThunk },
+	{ 0x0600008C, TrackedRotation_Reset_m54545DE2D01827833956AEC4324C136A0CB72425_AdjustorThunk },
+	{ 0x0600008D, TrackedRotation_SetBaseFromVector_m0CAD68507FD5C7AA3C7CAE09720645F033F1D26E_AdjustorThunk },
+	{ 0x0600008E, TrackedRotation_SetTargetFromVector_m42F1586C38A41E0FB628220D326B1572BB8F80D7_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[165] = 
+static const int32_t s_InvokerIndices[167] = 
 {
 	16679,
 	16679,
 	16679,
 	16679,
 	16679,
+	16679,
+	12631,
 	16679,
 	16679,
 	16679,
@@ -523,7 +529,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	165,
+	167,
 	s_methodPointers,
 	4,
 	s_adjustorThunks,

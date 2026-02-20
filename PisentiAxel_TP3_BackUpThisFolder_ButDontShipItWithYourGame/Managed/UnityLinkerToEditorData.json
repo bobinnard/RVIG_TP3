@@ -1043,6 +1043,14 @@
             "icon": null
           },
           {
+            "name": "PhysicsMaterial",
+            "scenes": [
+              "Assets/TP3/Scene/TP3.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "Rigidbody",
             "scenes": [
               "Assets/TP3/Scene/TP3.unity"
