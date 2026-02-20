@@ -10770,6 +10770,7 @@ struct BallScript_t04C431F64A356D97BC46CD4A16C68D27CF9FC57B  : public MonoBehavi
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___startPosition;
 	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___winSound;
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___rb;
 };
 struct BezierCurve_t43BBB6AA7BF6D3B9638D5CBB500FC809A7AF2AC2  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -14212,9 +14213,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9807[1] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9808[10] = 
 {
 	static_cast<int32_t>(offsetof(ProximityDetector_t973553ECD6921A6DAE0E6C060C36FF6B21C39578, ___controller)),static_cast<int32_t>(offsetof(ProximityDetector_t973553ECD6921A6DAE0E6C060C36FF6B21C39578, ___cubes)),static_cast<int32_t>(offsetof(ProximityDetector_t973553ECD6921A6DAE0E6C060C36FF6B21C39578, ___selectedColor)),static_cast<int32_t>(offsetof(ProximityDetector_t973553ECD6921A6DAE0E6C060C36FF6B21C39578, ___sizeScale)),static_cast<int32_t>(offsetof(ProximityDetector_t973553ECD6921A6DAE0E6C060C36FF6B21C39578, ___sizeChange)),static_cast<int32_t>(offsetof(ProximityDetector_t973553ECD6921A6DAE0E6C060C36FF6B21C39578, ___hasGrown)),static_cast<int32_t>(offsetof(ProximityDetector_t973553ECD6921A6DAE0E6C060C36FF6B21C39578, ___originalColor)),static_cast<int32_t>(offsetof(ProximityDetector_t973553ECD6921A6DAE0E6C060C36FF6B21C39578, ___angleLimit)),static_cast<int32_t>(offsetof(ProximityDetector_t973553ECD6921A6DAE0E6C060C36FF6B21C39578, ___angle)),static_cast<int32_t>(offsetof(ProximityDetector_t973553ECD6921A6DAE0E6C060C36FF6B21C39578, ___myText)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9809[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9809[3] = 
 {
-	static_cast<int32_t>(offsetof(BallScript_t04C431F64A356D97BC46CD4A16C68D27CF9FC57B, ___startPosition)),static_cast<int32_t>(offsetof(BallScript_t04C431F64A356D97BC46CD4A16C68D27CF9FC57B, ___winSound)),};
+	static_cast<int32_t>(offsetof(BallScript_t04C431F64A356D97BC46CD4A16C68D27CF9FC57B, ___startPosition)),static_cast<int32_t>(offsetof(BallScript_t04C431F64A356D97BC46CD4A16C68D27CF9FC57B, ___winSound)),static_cast<int32_t>(offsetof(BallScript_t04C431F64A356D97BC46CD4A16C68D27CF9FC57B, ___rb)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable9810[5] = 
 {
 	static_cast<int32_t>(offsetof(U3CShootU3Ed__9_t36E585107CF2ECAD28A07F931C18C6A0A14DF107, ___U3CU3E1__state)),static_cast<int32_t>(offsetof(U3CShootU3Ed__9_t36E585107CF2ECAD28A07F931C18C6A0A14DF107, ___U3CU3E2__current)),static_cast<int32_t>(offsetof(U3CShootU3Ed__9_t36E585107CF2ECAD28A07F931C18C6A0A14DF107, ___U3CU3E4__this)),static_cast<int32_t>(offsetof(U3CShootU3Ed__9_t36E585107CF2ECAD28A07F931C18C6A0A14DF107, ___target)),static_cast<int32_t>(offsetof(U3CShootU3Ed__9_t36E585107CF2ECAD28A07F931C18C6A0A14DF107, ___U3CinstantiatedParticulesU3E5__2)),};
